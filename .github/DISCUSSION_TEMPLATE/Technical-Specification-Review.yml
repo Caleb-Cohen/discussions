@@ -4,7 +4,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        **Summary**
+        This spec goes into the idea of the best way to onboard users.
+  Ideally, we want to provide a friendly welcome for new users and help them to pair with other programmers/users for collaboration. It also includes signing in process and features exploration.
   - type: textarea
     id: improvements
     attributes:
