@@ -1,16 +1,94 @@
 title: Technical Specification Review
 labels: ["General Introduction"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        **Summary** 
-        This spec goes into the idea of the best way to onboard users. Ideally, we want to provide a friendly welcome for new users and help them to pair with other programmers/users for collaboration. It also includes signing in process and features exploration.
   - type: textarea
     id: summary
     attributes:
       label: Summary
-      description: This spec goes into the idea of the best way to onboard users. Ideally, we want to provide a friendly welcome for new users and help them to pair with other programmers/users for collaboration. It also includes signing in process and features exploration.
+      description: Provide a short (1-2 sentences) overview of the project, including its purpose and goals.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the scope of the project, including what is within scope and what is out of scope.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: data model
+    attributes:
+      label: Data Model
+      description: Define any changes to data models, including any added or removed indeces or relations.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: user stories
+    attributes:
+      label: User Stories
+      description: List the ways the user will interact with the project. e.g. "User will be able to edit their profile."
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: implementation details
+    attributes:
+      label: Implementation Details
+      description: Provide details around how the feature will be implemented, and justify any decisions made. For example, this may include stuff that looks like
+      render: bash
+            value: |
+      * We are using server-side rendering via Next.js instead of client-side rendering because XYZ.
+      * To get a user's information from Discord, we will use the provided code to generate an access token from Discord's OAuth API, and then use that access token to hit various endpoints to get user's profile and guild data.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the scope of the project, including what is within scope and what is out of scope.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the scope of the project, including what is within scope and what is out of scope.
+      render: bash
+    validations:
+      required: true
+    - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the scope of the project, including what is within scope and what is out of scope.
+      render: bash
+    validations:
+      required: true
+    - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the scope of the project, including what is within scope and what is out of scope.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the scope of the project, including what is within scope and what is out of scope.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the scope of the project, including what is within scope and what is out of scope.
       render: bash
     validations:
       required: true
