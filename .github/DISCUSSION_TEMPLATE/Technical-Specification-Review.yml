@@ -18,7 +18,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: data model
+    id: dataModel
     attributes:
       label: Data Model
       description: Define any changes to data models, including any added or removed indeces or relations.
@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: user stories
+    id: userStories
     attributes:
       label: User Stories
       description: List the ways the user will interact with the project. e.g. "User will be able to edit their profile."
@@ -34,7 +34,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: implementation details
+    id: implementationDetails
     attributes:
       label: Implementation Details
       description: Provide details around how the feature will be implemented, and justify any decisions made. For example, this may include stuff that looks like
@@ -50,7 +50,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: security/privacy
+    id: securityPrivacy
     attributes:
       label: Security/Privacy
       description: Call out any security or privacy concerns, and what can be done to mitigate them.
@@ -66,7 +66,7 @@ body:
     validations:
       required: true
     - type: textarea
-    id: open questions
+    id: openQuestions
     attributes:
       label: Open Questions
       description: Use this space to ask any questions of which you're not sure of the answer, whether it be a technical question or an implementation detail.
