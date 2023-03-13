@@ -1,12 +1,20 @@
 title: Technical Specification Review
 labels: ["General Introduction"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        # Technical Specification Review
+
+        This is a template for documenting the technical specifications of a project.
+
+        Please fill out the fields below to the best of your ability. The **Summary** field is required, but the others are optional.
+
   - type: textarea
     id: summary
     attributes:
       label: Summary
       description: Provide a short (1-2 sentences) overview of the project, including its purpose and goals.
-      render: bash
     validations:
       required: true
   - type: textarea
@@ -14,73 +22,46 @@ body:
     attributes:
       label: Scope
       description: Define the scope of the project, including what is within scope and what is out of scope.
-      render: bash
-    validations:
-      required: true
   - type: textarea
     id: data-model
     attributes:
       label: Data Model
       description: Define any changes to data models, including any added or removed indices or relations.
-      render: bash
-    validations:
-      required: true
   - type: textarea
     id: user-stories
     attributes:
       label: User Stories
       description: List the ways the user will interact with the project. e.g. "User will be able to edit their profile."
-      render: bash
-    validations:
-      required: true
   - type: textarea
     id: implementation-details
     attributes:
       label: Implementation Details
       description: Provide details around how the feature will be implemented, and justify any decisions made. For example, this may include stuff that looks like
-      render: bash
-    validations:
-      required: true
   - type: textarea
     id: apis
     attributes:
       label: APIs
       description: Define new API endpoints of the project, including the endpoints, methods, and request/response formats.
-      render: bash
-    validations:
-      required: true
   - type: textarea
     id: security-privacy
     attributes:
       label: Security/Privacy
       description: Call out any security or privacy concerns, and what can be done to mitigate them.
-      render: bash
-    validations:
-      required: true
   - type: textarea
     id: testing
     attributes:
       label: Testing
       description: Describe the testing approach and strategy for the project, including unit tests, integration tests, and end-to-end tests.
-      render: bash
-    validations:
-      required: true
   - type: textarea
     id: open-questions
     attributes:
       label: Open Questions
       description: Use this space to ask any questions of which you're not sure of the answer, whether it be a technical question or an implementation detail.
-      render: bash
-    validations:
-      required: true
   - type: textarea
     id: deployment
     attributes:
       label: Deployment
       description: Describe any special considerations needed when deploying the project. For example, if there are breaking schema changes, how do we migrate existing data?
-      render: bash
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: |
