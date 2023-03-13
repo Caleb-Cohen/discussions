@@ -39,9 +39,6 @@ body:
       label: Implementation Details
       description: Provide details around how the feature will be implemented, and justify any decisions made. For example, this may include stuff that looks like
       render: bash
-            value: |
-      * We are using server-side rendering via Next.js instead of client-side rendering because XYZ.
-      * To get a user's information from Discord, we will use the provided code to generate an access token from Discord's OAuth API, and then use that access token to hit various endpoints to get user's profile and guild data.
     validations:
       required: true
   - type: textarea
