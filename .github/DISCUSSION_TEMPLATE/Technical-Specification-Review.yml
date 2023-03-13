@@ -42,50 +42,42 @@ body:
     validations:
       required: true
   - type: textarea
-    id: scope
+    id: apis
     attributes:
-      label: Scope
-      description: Define the scope of the project, including what is within scope and what is out of scope.
+      label: APIs
+      description: Define new API endpoints of the project, including the endpoints, methods, and request/response formats.
       render: bash
     validations:
       required: true
   - type: textarea
-    id: scope
+    id: security/privacy
     attributes:
-      label: Scope
-      description: Define the scope of the project, including what is within scope and what is out of scope.
+      label: Security/Privacy
+      description: Call out any security or privacy concerns, and what can be done to mitigate them.
       render: bash
     validations:
       required: true
     - type: textarea
-    id: scope
+    id: testing
     attributes:
-      label: Scope
-      description: Define the scope of the project, including what is within scope and what is out of scope.
+      label: Testing
+      description: Describe the testing approach and strategy for the project, including unit tests, integration tests, and end-to-end tests.
       render: bash
     validations:
       required: true
     - type: textarea
-    id: scope
+    id: open questions
     attributes:
-      label: Scope
-      description: Define the scope of the project, including what is within scope and what is out of scope.
+      label: Open Questions
+      description: Use this space to ask any questions of which you're not sure of the answer, whether it be a technical question or an implementation detail.
       render: bash
     validations:
       required: true
   - type: textarea
-    id: scope
+    id: deployment
     attributes:
-      label: Scope
-      description: Define the scope of the project, including what is within scope and what is out of scope.
-      render: bash
-    validations:
-      required: true
-  - type: textarea
-    id: scope
-    attributes:
-      label: Scope
-      description: Define the scope of the project, including what is within scope and what is out of scope.
+      label: Deployment
+      description: Describe any special considerations needed when deploying the project. For example, if there are breaking schema changes, how do we migrate existing data?
       render: bash
     validations:
       required: true
